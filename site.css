@@ -1,0 +1,33 @@
+:root {
+    font-family: sans-serif;
+    color: #333745;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: #eff7e7;
+    outline: 16px solid #333745;
+    outline-offset: -24px;
+}
+
+.title {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    /* transform: translate(-50%, -50%);
+    transform-origin: center; */
+}
